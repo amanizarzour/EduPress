@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/contactStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <img src="./assets/images/LOGO.png" alt="EdupressLogo">
+            <ul class="menu">
+                <li><a href="./index.html"> Home</a></li>
+                <li><a href="./Courses.html">Courses</a></li>
+                <li><a href="./Blog.html">Blog</a></li>
+                <li class="active">
+                    <select name="Pages" onchange="location = this.value;">
+                        <option value="FAQ.html">Pages</option>
+                        <option value="FAQ.html">FAQ's</option>
+                        <option value="Contact.html">Contact</option>
+                    </select>
+                </a>
+                </li>
+                <li>Premium Theme</li>
+            </ul>
+            <div class="login">
+                <button class="login" type="submit" onclick="document.location='Login.html'">Login / Register</button>
+                <img src="./assets/images/Search.svg" alt="Search">
+            </div>
+            <button class="bars"><i class="fa-solid fa-bars"></i></button>
+        </nav>
+        <div class="hero">
+            <h1> Homepage</h1>
+            <img src="./assets/images/arrow.svg"></img>
+            <p>Contact</p>
+        </div>
+    </header>
+    <section class="direct-line">
+        <div class="information">
+            <h1>Need a direct line?</h1>
+            <p class="p"> Cras massa et odio donec faucibus in. Vitae pretium massa dolor ullamcorper lectus elit quam.</p>
+            <div class="contact-details">
+                <div class="detail">
+                    <div class="icons">
+                        <i class="fa-solid fa-phone" id="icon"></i>
+                    </div>
+                    <div class="paragraph">
+                        <p class="p">Phone</p>
+                        <h5>(123) 456 7890</h5>
+                    </div>
+                </div>
+                <div class="detail">
+                    <div class="icons">
+                        <i class="fa-solid fa-envelope" id="icon"></i>
+                    </div>
+                    <div class="paragraph">
+                        <p class="p">Email</p>
+                        <h5>contact@thimpress.com</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1011.8382047694013!2d36.299642379844464!3d33.53880558479412!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1518e73087a5eb7b%3A0x3325ede186dd066e!2z2YXZhNit2YXYqSDYqNix2YbYqNmI!5e0!3m2!1sen!2suk!4v1729463729919!5m2!1sen!2suk"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </section>
+    <section class="contactus">
+        <h2>Contact us</h2>
+        <p>Your email address will not be published. Required fields are marked *</p>
+        <div class="personalinfo">
+            <input type="text" placeholder="Name*" required>
+            <input type="text" placeholder="Email*" required>
+        </div>
+        <div class="comment">
+            <input type="text" placeholder="Comment">
+         </div>
+        <div class="checkbox">
+            <input type="checkbox">
+            <p>Save my name, email in this brower for the next time I comment</p>
+        </div>
+        <button type="submit">Posts comment</button>
+    </section>
+    <section class="info">
+        <div class="cont">
+            <div class="about">
+                <div><img src="./assets/images/LOGO.png" alt="Logo"></div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <div class="help">
+                <ul>
+                    <h4>GET HELP</h4>
+                    <li>Contact Us</li>
+                    <li>Latest Articles</li>
+                    <li>FAQ</li>
+                </ul>
+            </div>
+            <div class="programs">
+                <ul>
+                    <h4>GET HELP</h4>
+                    <li>Art & Design</li>
+                    <li class="active">Business</li>
+                    <li>IT & Software</li>
+                    <li>Languages</li>
+                    <li>Programming</li>
+                </ul>
+            </div>
+            <div class="contact-us">
+                <h4>Contact Us</h4>
+                <p>Address: 2321 New Design Str, Lorem Ipsum10 Hudson Yards, USA</p>
+                <p>Tel: + (123) 2500-567-8988</p>
+                <p>Mail: supportlms@gmail.com</p>
+                <div class="icon">
+                    <a href=""><img src="./assets/images/facebook.png" alt="facebook"></a>
+                    <a href="" class="active"><img src="./assets/images/pinterest.svg"></a>
+                    <a href=""><img src="./assets/images/X.svg" alt="X"></a>
+                    <a href=""><img src="./assets/images/instagram.svg" alt="instagram"></a>
+                    <a href=""><img src="./assets/images/youtube.svg" alt="youtube"></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p> Copyright © 2024 LearnPress LMS | Powered by ThimPress</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"></script>
+</body>
+</html>
